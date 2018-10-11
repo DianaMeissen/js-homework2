@@ -57,5 +57,9 @@ user.toString(function() {
 	return this.name;
 });
 
+user.valueOf(function() {
+	return this.number;
+});
+
 console.log('His name is ' + user.name);
 console.log(user*2);
