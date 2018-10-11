@@ -57,7 +57,7 @@ user.toString(function() {
 	return this.name;
 });
 
-user.valueOf(function() {
+user.age(valueOf: function() {
 	return this.number;
 });
 
